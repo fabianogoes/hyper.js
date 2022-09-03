@@ -9,6 +9,11 @@
 > :warning: Required Windows with WSL2 configured with Ubuntu
 > My WSL configuration → https://github.com/fabianogoes/wsl-ubuntu
 
+- [Hyper.js on Windows](#hyperjs-on-windows)
+  - [Wsl Ubuntu](#wsl-ubuntu)
+  - [Customize Hyper](#customize-hyper)
+  - [References](#references)
+
 ## Wsl Ubuntu
 
 ```bash

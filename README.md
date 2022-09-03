@@ -6,6 +6,17 @@
 
 [Hyper.js Official site](https://hyper.is)
 
+- [Hyper.js on MacOs](#hyperjs-on-macos)
+  - [ZSH](#zsh)
+  - [Oh My Zsh](#oh-my-zsh)
+  - [Customize Hyper](#customize-hyper)
+  - [Themes](#themes)
+  - [Optional](#optional)
+    - [Fig](#fig)
+  - [Shortcut](#shortcut)
+  - [File configuration](#file-configuration)
+  - [References](#references)
+
 ## ZSH
 
 ```bash
