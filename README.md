@@ -1,8 +1,10 @@
 ![Hyper.js](./hyper.js.png)
-# Hyper.js
-[Hyper.js Official site](https://hyper.is)
 
-My hyper.js configurations
+# Hyper.js on MacOs
+
+> See my configuration to Windows [here](./windows/README.md)
+
+[Hyper.js Official site](https://hyper.is)
 
 ## ZSH
 
@@ -48,27 +50,30 @@ source $ZSH_CUSTOM/plugins/zsh-completions/zsh-completions.plugin.zsh
 
 ```jsx
 plugins: [
-        "hypertheme",
-        "hyper-omni-theme",
-        "hyper-opacity",
-        "hypercwd",
-        "hyper-active-tab",
-        "hyperborder",
-        "hyper-hide-title",
-        "hyperterm-paste",
-        "hyperline"
-    ]
+  'hypertheme',
+  'hyper-omni-theme',
+  'hyper-opacity',
+  'hypercwd',
+  'hyper-active-tab',
+  'hyperborder',
+  'hyper-hide-title',
+  'hyperterm-paste',
+  'hyperline',
+  'hyper-font-ligatures',
+  'hyper-tabs-enhanced',
+  'hyper-pane',
+];
 ```
 
 → **Font**
 
-[MesloLGS NF Bold Italic.ttf](./MesloLGS_NF_Bold_Italic.ttf)
+[MesloLGS NF Bold Italic.ttf](../fonts/MesloLGS_NF_Bold_Italic.ttf)
 
-[MesloLGS NF Bold.ttf](./MesloLGS_NF_Bold.ttf)
+[MesloLGS NF Bold.ttf](../fonts/MesloLGS_NF_Bold.ttf)
 
-[MesloLGS NF Italic.ttf](./MesloLGS_NF_Italic.ttf)
+[MesloLGS NF Italic.ttf](../fonts/MesloLGS_NF_Italic.ttf)
 
-[MesloLGS NF Regular.ttf](./MesloLGS_NF_Regular.ttf)
+[MesloLGS NF Regular.ttf](../fonts/MesloLGS_NF_Regular.ttf)
 
 ```jsx
 fontFamily: '"MesloLGS NF"',
@@ -81,19 +86,18 @@ fontFamily: '"MesloLGS NF"',
 ```jsx
 module.exports = {
   config: {
-    opacity: 1.00
-  }
-}
+    opacity: 1.0,
+  },
+};
 ```
 
 ## Themes
 
-- ****Omni for [Hyper](https://www.npmjs.com/package/hyper-omni-theme)**
-    
+- **Omni for [Hyper](https://www.npmjs.com/package/hyper-omni-theme)**
+
 ```bash
 hyper install hyper-omni-theme
 ```
-    
 
 ## Optional
 
