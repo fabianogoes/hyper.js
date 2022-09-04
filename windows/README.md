@@ -14,6 +14,7 @@
   - [Powershell](#powershell)
   - [Wsl Ubuntu](#wsl-ubuntu)
   - [Customize Hyper](#customize-hyper)
+  - [Link simbólico](#link-simbólico)
   - [References](#references)
 
 ## Windows Settings
@@ -131,6 +132,10 @@ module.exports = {
   },
 };
 ```
+
+## Link simbólico
+
+→ `ln -s /mnt/c/Users/<USERNAME> ~/win` 
 
 ## References
 
