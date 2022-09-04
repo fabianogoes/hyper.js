@@ -10,9 +10,28 @@
 > My WSL configuration → https://github.com/fabianogoes/wsl-ubuntu
 
 - [Hyper.js on Windows](#hyperjs-on-windows)
+  - [Windows Settings](#windows-settings)
+  - [Powershell](#powershell)
   - [Wsl Ubuntu](#wsl-ubuntu)
   - [Customize Hyper](#customize-hyper)
   - [References](#references)
+
+## Windows Settings
+
+Ativar modo Desenvolvedor:
+
+- Windows 10 → `Configurações → Para desenvolvedor`
+- Windows 11 → `Configurações → Provacidade e segurança → Para desenvolvedor`
+
+## Powershell
+
+Setar Ubuntu como default
+
+* `wsl --list`
+* `wsl --setdefault <UBUNTU_NAME>` exemplo: → `wsl --setdefault UBUNTU-22.04`
+* `wsl --shutdown`
+
+> Restart Hyper.js
 
 ## Wsl Ubuntu
 
